@@ -21,8 +21,7 @@ public class AtividadePedro {
          for (int i = 0; i < A.length; i++) {
              int a = 0, b = 20;
              C[i] = A[i] * B[i];
-             a++;
-             b--;
+             a++; b--;
          }
          for (int i = 0; i < A.length; i++) {
              System.out.println(" Vetor C[" + i + "]: " + C[i]);

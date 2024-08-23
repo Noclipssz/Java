@@ -26,7 +26,6 @@ public class AtividadePedro1 {
             System.out.println(students[i] + " - " + notas[i]);
         }
 
-
       sc.close();
     }
 }
