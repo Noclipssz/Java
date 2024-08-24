@@ -1,32 +1,24 @@
 import java.util.Scanner;
-import java.math.MathContext;
+import entities.triangulo;
 public class AtividadePedro4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter the measures of triangle x: ");
-        double xA = sc.nextDouble();
-        double xB = sc.nextDouble();
-        double xC = sc.nextDouble();
+        triangulo x, y;
+        x = new triangulo();
+        y = new triangulo();
 
         System.out.println("Enter the measures of triangle x: ");
-        double yA = sc.nextDouble();
-        double yB = sc.nextDouble();
-        double yC = sc.nextDouble();
+            x.ler(x.a,x.b,x.c);
 
-        double xP = (xA + xB + xC) / 2;
-        xP = Math.sqrt(xP * (xP - xA) * (xP - xB) * (xP - xC));
-        double yP = (yA + yB + yC) / 2;
-        yP = Math.sqrt(yP * (yP - yA) * (yP - yB) * (yP - yC));
+        System.out.println("Enter the measures of triangle y: ");
+            x.ler(x.a,x.b,x.c);
 
-        System.out.printf("The area of the triangle X is %.2f \n", xP);
-        System.out.printf("The area of the triangle Y is %.2f \n", yP);
+         x.p = x.calc(x.a,x.b,x.c);
+         y.p = y.calc(y.a,y.b,y.c);
+        System.out.printf("The area of the triangle X is %.2f \n", x.p);
+        System.out.printf("The area of the triangle Y is %.2f \n", y.p);
 
-        if (xP > yP) {
-            System.out.println(" Triangle of big is " + xP);
-        } else if (xP < yP) {
-                System.out.println(" Triangle of big is " + yP);
-        }
         sc.close();
     }
 }
