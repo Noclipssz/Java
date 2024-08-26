@@ -9,6 +9,8 @@ public class AtividadePedro6 {
         System.out.println(media(soma,vetor.length));
     }
 
+
+
     public static float media(float soma ,int[] vetor, Scanner sc ) {
         for (int i = 0; i < vetor.length; i++) {
             System.out.print("Escreva o n " + (i+1) + " do vetor: ");
