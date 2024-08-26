@@ -4,12 +4,6 @@ public class ClassProduct {
     public String name;
     public Double price;
     public int quantity;
-
-
-
-
-
-
     public double TotalValueInStock() {
         return quantity * price;
     }

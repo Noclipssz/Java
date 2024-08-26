@@ -12,7 +12,8 @@ public class bimonthly {
         full += sc.nextDouble();
         full += sc.nextDouble();
         full += sc.nextDouble();
-        full = (full / 3);
+        System.out.println("Points : " + full);
+        System.out.println("Points : " + full);
         sc.close();
     }
     public void display(){
@@ -22,10 +23,8 @@ public class bimonthly {
     } else {
         System.out.println("Final Grade: " + full);
         System.out.println("Fail");
-        System.out.println("Missing " +(full - 60) + "Point ");
-
+        System.out.println("Missing " +(60 - full) + " Point ");
+    }
     }
 
-
-    }
 }
