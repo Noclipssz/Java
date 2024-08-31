@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ClassBanc {
     private int account;
+    private int numagencia;
     private String name;
     private double balance;
 
