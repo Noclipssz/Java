@@ -56,6 +56,7 @@ import java.util.Scanner;
             scanner.close();
         }
 
+
         // Método main que chama a função runProgram
         public static void main(String[] args) {
             // Chamando a função para rodar o programa
