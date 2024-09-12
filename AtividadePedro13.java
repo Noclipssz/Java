@@ -5,8 +5,8 @@ public class AtividadePedro13 {
         Usuarios[] us = new Usuarios[5];
 
         ler(us);
-        System.out.println("O percentual de Homens é : " + percentualMasculino(us));
-        System.out.println("O percentual de Feminino é : " + percentualFeminuno(us));
+    //    System.out.println("O percentual de Homens é : " + percentualMasculino(us));
+    //    System.out.println("O percentual de Feminino é : " + percentualFeminuno(us));
         System.out.println(calc(us));
     }
     public static void ler(Usuarios[] us) {
@@ -36,7 +36,7 @@ public class AtividadePedro13 {
             }
         }
 
-        return "Maior idade Masc:" + masc + "Maior idade Femin:" + fem;
+    return "Maior idade Masc:" + masc + "Maior idade Femin:" + fem;
     }
 
 
