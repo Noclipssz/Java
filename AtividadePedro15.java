@@ -49,15 +49,17 @@ import java.util.Scanner;
                 }
             }
 
-            // Executa o método para listar os carros
+
+            // Executa o metodo
             carManager.Carssrun();
+
 
             // Fechar o scanner para evitar vazamento de recursos
             scanner.close();
+
         }
 
 
-        // Método main que chama a função runProgram
         public static void main(String[] args) {
             // Chamando a função para rodar o programa
             runProgram();
